@@ -10,18 +10,18 @@ according to the highest Most significant 2-bit of the ALU_FUNC control
 bus ALU_FUNC [3:2].
 
 Specifications:-
-● All Outputs are registered. 
-● All registers are cleared using Asynchronous active low reset.
-● Arith_flag is activated "High" only when ALU performs one of 
+- All Outputs are registered. 
+- All registers are cleared using Asynchronous active low reset.
+- Arith_flag is activated "High" only when ALU performs one of 
 the arithmetic operations (Signed Addition, Signed Subtraction, 
 Signed Multiplication, Signed Division), otherwise "LOW".
-● Logic_flag is activated "High" only when ALU performs one of 
+- Logic_flag is activated "High" only when ALU performs one of 
 the Boolean operations (AND, OR, NAND, NOR), otherwise 
 "LOW".
-● CMP_flag is activated "High" only when ALU performs one of 
+- CMP_flag is activated "High" only when ALU performs one of 
 the Comparison operations (Equal, Greater than, less than) or 
 NOP, otherwise "LOW".
-● Shift_flag is activated "High" only when ALU performs one of 
+- Shift_flag is activated "High" only when ALU performs one of 
 the shifting operations (shift right, shift left), otherwise "LOW".
 
 
